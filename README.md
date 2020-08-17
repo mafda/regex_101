@@ -4,9 +4,9 @@ A regular expression is a sequence of characters that define a search pattern.
 
 ## Introduction
 
-| Regex | Description |
-| :---: | :---------- |
-| dot   | The dot (.) matches anything (except for a newline). |
+| Regex | Description | Example |
+| :---: | :---------- | :------ |
+| dot   | The dot (.) matches anything (except for a newline). | [01_matching_anything_but_a_newline.py](https://github.com/mafda/regex_101/blob/master/example/01_matching_anything_but_a_newline.py) |
 
 ## Character Class
 
