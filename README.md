@@ -11,6 +11,8 @@ A regular expression is a sequence of characters that define a search pattern.
 | \D    | The expression \D matches any character that is not a digit. | [02_matching_digits_and_non_digit_characters.py](https://github.com/mafda/regex_101/blob/master/example/02_matching_digits_and_non_digit_characters.py) |
 | \s    | The expression \s matches any whitespace character [ \r\n\t\f ]. |  |
 | \S    | The expression \S matches any non-white space character | [03_matching_whitespace_and_non_whitespace_character.py](https://github.com/mafda/regex_101/blob/master/example/03_matching_whitespace_and_non_whitespace_character.py) |
+| \w    | The expression \w will match any word character. Word characters include alphanumeric characters (a-z, A-Z and 0-9) and underscores (_). |  |
+| \W    | The expression \W matches any non-word character. Non-word characters include alphanumeric characters (a-z, A-Z and 0-9) and underscores (_).| [04_matching_world_and_non_world_character.py](https://github.com/mafda/regex_101/blob/master/example/04_matching_world_and_non_world_character.py) |
 
 
 ## Character Class
