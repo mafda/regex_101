@@ -16,8 +16,11 @@ A regular expression is a sequence of characters that define a search pattern.
 | ^    | The ^ symbol matches the position at the start of a string. |  |
 | $    | The $ symbol matches the position at the end of a string. | [05_matching_start_and_end.py](https://github.com/mafda/regex_101/blob/master/example/05_matching_start_and_end.py) |
 
-
 ## Character Class
+
+| Regex | Description | Example |
+| :---: | :---------- | :------ |
+| []    | The character class [ ] matches only one out of several characters placed inside the square brackets. | [06_matching_specific_characters.py](https://github.com/mafda/regex_101/blob/master/example/06_matching_specific_characters.py) |
 
 ## Repetitions
 
