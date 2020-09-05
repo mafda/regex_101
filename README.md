@@ -21,6 +21,7 @@ A regular expression is a sequence of characters that define a search pattern.
 | Regex | Description | Example |
 | :---: | :---------- | :------ |
 | [ ]   | The character class [ ] matches only one out of several characters placed inside the square brackets. | [06_matching_specific_characters.py](https://github.com/mafda/regex_101/blob/master/example/06_matching_specific_characters.py) |
+| [^]   | The negated character class [^] matches any character that is not in the square brackets. | [07_excluding_specific_characters.py](https://github.com/mafda/regex_101/blob/master/example/07_excluding_specific_characters.py) |
 
 ## Repetitions
 
