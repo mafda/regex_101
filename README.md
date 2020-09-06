@@ -23,6 +23,7 @@ A regular expression is a sequence of characters that define a search pattern.
 | [ ]   | The character class [ ] matches only one out of several characters placed inside the square brackets. | [06_matching_specific_characters.py](https://github.com/mafda/regex_101/blob/master/example/06_matching_specific_characters.py) |
 | [^]   | The negated character class [^] matches any character that is not in the square brackets. | [07_excluding_specific_characters.py](https://github.com/mafda/regex_101/blob/master/example/07_excluding_specific_characters.py) |
 | -   | A hyphen (-) inside a character class specifies a range of characters where the left and right operands are the respective lower and upper bounds of the range. | [08_matching_character_ranges.py](https://github.com/mafda/regex_101/blob/master/example/08_matching_character_ranges.py) |
+| {x} | The tool {x} will match exactly  repetitions of character/character class/groups. | [09_matching_x_repetitions.py](https://github.com/mafda/regex_101/blob/master/example/09_matching_x_repetitions.py) |
 
 ## Repetitions
 
