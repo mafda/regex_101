@@ -32,6 +32,9 @@ A regular expression is a sequence of characters that define a search pattern.
 | {x,y} | The {x,y} tool will match between x and y (both inclusive) repetitions of character/character class/group. | [010_matching_xy_repetitions.py](https://github.com/mafda/regex_101/blob/master/example/010_matching_xy_repetitions.py) |
 | * | The * tool will match zero or more repetitions of character/character class/group. | [011_matching_zero_or_more_repetitions.py](https://github.com/mafda/regex_101/blob/master/example/011_matching_zero_or_more_repetitions.py) |
 | + | The + tool will match one or more repetitions of character/character class/group. | [012_matching_one_or_more_repetitions.py](https://github.com/mafda/regex_101/blob/master/example/012_matching_one_or_more_repetitions.py) |
+| $ | The $ boundary matcher matches an occurrence of a character/character class/group at the end of a line. | [013_matching_ending_items.py](https://github.com/mafda/regex_101/blob/master/example/013_matching_ending_items.py) |
+
+
 
 ## Grouping and Capturing
 
