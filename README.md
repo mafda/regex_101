@@ -34,9 +34,11 @@ A regular expression is a sequence of characters that define a search pattern.
 | + | The + tool will match one or more repetitions of character/character class/group. | [012_matching_one_or_more_repetitions.py](https://github.com/mafda/regex_101/blob/master/example/012_matching_one_or_more_repetitions.py) |
 | $ | The $ boundary matcher matches an occurrence of a character/character class/group at the end of a line. | [013_matching_ending_items.py](https://github.com/mafda/regex_101/blob/master/example/013_matching_ending_items.py) |
 
-
-
 ## Grouping and Capturing
+
+| Regex | Description | Example |
+| :---: | :---------- | :------ |
+|   \b  | \b assert position at a word boundary. Three different positions qualify for word boundaries : Before the first character in the string, if the first character is a word character. Between two characters in the string, where one is a word character and the other is not a word character. After the last character in the string, if the last character is a word character. | [014_matching_word_boundaries.py](https://github.com/mafda/regex_101/blob/master/example/014_matching_word_boundaries.py) |
 
 ## Backreferences
 
