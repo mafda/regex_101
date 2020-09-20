@@ -39,6 +39,7 @@ A regular expression is a sequence of characters that define a search pattern.
 | Regex | Description | Example |
 | :---: | :---------- | :------ |
 |   \b  | \b assert position at a word boundary. Three different positions qualify for word boundaries : Before the first character in the string, if the first character is a word character. Between two characters in the string, where one is a word character and the other is not a word character. After the last character in the string, if the last character is a word character. | [014_matching_word_boundaries.py](https://github.com/mafda/regex_101/blob/master/example/014_matching_word_boundaries.py) |
+|   ()  | Parenthesis ( ) around a regular expression can group that part of regex together. This allows us to apply different quantifiers to that group. These parenthesis also create a numbered capturing. It stores the part of string matched by the part of regex inside parentheses. These numbered capturing can be used for backreferences. ( We shall learn about it later ) | [015_capturing_and_noncapturing_groups.py](https://github.com/mafda/regex_101/blob/master/example/015_capturing_and_noncapturing_groups.py) |
 
 ## Backreferences
 
