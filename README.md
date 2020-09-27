@@ -44,6 +44,10 @@ A regular expression is a sequence of characters that define a search pattern.
 
 ## Backreferences
 
+| Regex | Description | Example |
+| :---: | :---------- | :------ |
+| \group_number  | This tool (\1 references the first capturing group) matches the same text as previously matched by the capturing group. | [017_matching_same_text_again_and_again.py](https://github.com/mafda/regex_101/blob/master/example/017_matching_same_text_again_and_again.py) |
+
 ## Assertions
 
 ## Applications
