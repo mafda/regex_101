@@ -49,9 +49,12 @@ A regular expression is a sequence of characters that define a search pattern.
 | \group_number  | This tool (\1 references the first capturing group) matches the same text as previously matched by the capturing group. | [017_matching_same_text_again_and_again.py](https://github.com/mafda/regex_101/blob/master/example/017_matching_same_text_again_and_again.py) |
 | (b)?o\1  | Backreference to a capturing group that match nothing is different from backreference to a capturing group that did not participate in the match at all. | [018_backreferences_to_failed_groups.py](https://github.com/mafda/regex_101/blob/master/example/018_backreferences_to_failed_groups.py) |
 | (?\|regex)  | A branch reset group consists of alternations and capturing groups. (?\|(regex1)\|(regex2)) Alternatives in branch reset group share same capturing group. Branch reset group is supported by Perl, PHP, Delphi and R. | [019_branch_reset_groups.php](https://github.com/mafda/regex_101/blob/master/example/019_branch_reset_groups.php) |
-|   |  | [020_](https://github.com/mafda/regex_101/blob/master/example/020_) |
 
 ## Assertions
+
+| Regex | Description | Example |
+| :---: | :---------- | :------ |
+| regex_1(?=regex_2)  | The positive lookahead (?=) asserts regex_1 to be immediately followed by regex_2. The lookahead is excluded from the match. It does not return matches of regex_2. The lookahead only asserts whether a match is possible or not. | [020_positive_lookahead.py](https://github.com/mafda/regex_101/blob/master/example/020_positive_lookahead.py) |
 
 ## Applications
 
