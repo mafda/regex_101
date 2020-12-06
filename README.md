@@ -57,6 +57,7 @@ A regular expression is a sequence of characters that define a search pattern.
 | regex_1(?=regex_2)  | The positive lookahead (?=) asserts regex_1 to be immediately followed by regex_2. The lookahead is excluded from the match. It does not return matches of regex_2. The lookahead only asserts whether a match is possible or not. | [020_positive_lookahead.py](https://github.com/mafda/regex_101/blob/master/example/020_positive_lookahead.py) |
 | regex_1(?!regex_2)  | The negative lookahead (?!) asserts regex_1 not to be immediately followed by regex_2. Lookahead is excluded from the match (do not consume matches of regex_2), but only assert whether a match is possible or not. | [021_negative_lookahead.py](https://github.com/mafda/regex_101/blob/master/example/021_negative_lookahead.py) |
 | (?<=regex_2)regex_1 | The positive lookbehind (?<=) asserts regex_1 to be immediately preceded by regex_2. Lookbehind is excluded from the match (do not consume matches of regex_2), but only assert whether a match is possible or not. | [022_positive_lookbehind.py](https://github.com/mafda/regex_101/blob/master/example/022_positive_lookbehind.py) |
+| (?<!regex_2)regex_1 | The negative lookbehind (?<!) asserts regex_1 not to be immediately preceded by regex_2. Lookbehind is excluded from the match (do not consume matches of regex_2), but only assert whether a match is possible or not. | [023_negative_lookbehind.py](https://github.com/mafda/regex_101/blob/master/example/023_negative_lookbehind.py) |
 
 ## Applications
 
