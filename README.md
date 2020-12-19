@@ -61,6 +61,11 @@ A regular expression is a sequence of characters that define a search pattern.
 
 ## Applications
 
+| Problem | Solution |
+| :-----: | :------: |
+| Find A Sub-Word | [024_find-a-sub-word.py](https://github.com/mafda/regex_101/blob/master/example/024_find-a-sub-word.py)  |
+
+
 ---
 
 made with 💙 by [mafda](https://mafda.github.io/)
