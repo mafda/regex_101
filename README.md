@@ -1,6 +1,10 @@
-# Regex 101
+# Regex (Regular Expression) 101
 
-A regular expression is a sequence of characters that define a search pattern.
+A Regex or Regular Expression is a sequence of characters that define a search pattern.
+
+## Hackerrank Regex Challenges
+
+Solutions to [Hackerrank's Regular Expression Challenges](https://www.hackerrank.com/domains/regex/)
 
 ## Introduction
 
